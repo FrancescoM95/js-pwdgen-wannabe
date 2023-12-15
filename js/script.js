@@ -19,3 +19,8 @@ console.log(color);
 
 const userpassword = firstname + lastname + color + '23'
 console.log(userpassword);
+
+//* 5. Inseriamo la password generata preceduta da un breve messaggio in un titolo da stampare in pagina.
+
+document.getElementById('password').innerText = 'La tua password è: ' + (userpassword);
+console.log(password);
