@@ -9,3 +9,8 @@ console.log(firstname);
 
 const lastname = prompt('Qual è il tuo cognome?');
 console.log(lastname);
+
+//* 3. Chiediamo all'utente il suo colore preferito.
+
+const color = prompt('Qual è il tuo colore preferito?');
+console.log(color);
