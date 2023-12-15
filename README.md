@@ -31,3 +31,13 @@ nome repo: `js-pwdgen-wannabe`
 - Iniziate stampando un `console.log('JS OK')` per assicurarvi che la pagina sia  correttamente collegata.
 - Commentate ogni micro step e subito dopo verificate col (`console.log()`)
 - Disattivate Live Server finchè lavoriamo coi prompt o gli alert perchè potrebbe dar luogo a comportamenti strani.
+
+___
+
+## COME STRUTTURARE LA CONSEGNA - PUNTO 3 (Scomposizione problema)
+
+1. Chiediamo all'utente il suo nome. `const = firstname`
+1. Chiediamo all'utente in suo cognome. `const = lastname`
+1. Chiediamo all'utente il suo colore preferito. `const = color`
+1. Generiamo una password con i dati forniti dall'utente + il numero '23'. `const = userpassword`
+1. Inseriamo la password generata preceduta da un breve messaggio in un titolo da stampare in pagina. `<h1 id='password'>...</h1>`
